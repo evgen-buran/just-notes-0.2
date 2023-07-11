@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="editText">
+
+    <style name="edit_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:inputType">text</item>
         <item name="android:layout_margin">@dimen/appMargin</item>
-        <item name="android:autofillHints"></item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">text</item>
+        <item name="android:autofillHints" tools:targetApi="o"></item>
     </style>
+
+    <style name="edit_text_MultiLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/appMargin</item>
+        <item name="android:ems">10</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:autofillHints" tools:targetApi="o"></item>
+
+    </style>
+
 </resources>

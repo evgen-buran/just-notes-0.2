@@ -6,4 +6,5 @@
     <dimen name="appLargeText">20sp</dimen>
     <dimen name="appNormalText">16sp</dimen>
     <dimen name="btnWidth">250dp</dimen>
+    <dimen name="btn_width">250dp</dimen>
 </resources>
