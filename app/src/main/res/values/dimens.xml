@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardElevation">10dp</dimen>
+    <dimen name="cornerRadius">10dp</dimen>
+    <dimen name="appMargin">16dp</dimen>
+    <dimen name="appLargeText">20sp</dimen>
+    <dimen name="appNormalText">16sp</dimen>
+    <dimen name="btnWidth">250dp</dimen>
+</resources>
