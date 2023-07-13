@@ -6,8 +6,10 @@ plugins {
 android {
     namespace 'com.example.justnotes02'
     compileSdk 33
+    viewBinding.enabled = true
 
     defaultConfig {
+
         applicationId "com.example.justnotes02"
         minSdk 21
         targetSdk 33
@@ -61,6 +63,7 @@ dependencies {
 
     // Jetpack Compose Integration
     implementation "androidx.navigation:navigation-compose:$nav_version"
+//-----------------
 
 
 }
