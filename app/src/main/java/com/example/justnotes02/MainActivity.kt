@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.Toolbar
 import androidx.navigation.NavController
-import androidx.navigation.NavHostController
 import androidx.navigation.Navigation
+import com.example.justnotes02.R
 import com.example.justnotes02.databinding.ActivityMainBinding
 import com.example.justnotes02.utils.APP_ACTIVITY
 
