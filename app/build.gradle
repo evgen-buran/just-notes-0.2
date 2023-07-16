@@ -10,11 +10,7 @@ plugins {
 android {
     namespace 'com.example.justnotes02'
     compileSdk 33
-    viewBinding.enabled = true
-//    compileOptions {
-//        sourceCompatibility JavaVersion.VERSION_1_8
-//        targetCompatibility JavaVersion.VERSION_1_8
-//    }
+    viewBinding {enabled = true}
 
     defaultConfig {
 
@@ -97,6 +93,11 @@ dependencies {
 
     // optional - Paging 3 Integration
     implementation "androidx.room:room-paging:$room_version"
+
+    //-добавлено после ошибки про ktx
+
+    implementation "androidx.room:room-runtime:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
 
 
 
