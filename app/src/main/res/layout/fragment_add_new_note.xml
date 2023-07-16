@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".screens.AddNewNoteFragment">
+    tools:context=".screens.add_new_note.AddNewNoteFragment">
 
     <EditText
         android:id="@+id/inputNameNote"
@@ -28,6 +28,7 @@
         tools:ignore="label for" />
 
     <Button
+        android:id="@+id/btnAddNote"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/appMargin"

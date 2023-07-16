@@ -6,4 +6,5 @@
     <string name="choice_type_db">Choice type DB</string>
     <string name="room">Room</string>
     <string name="title">Notes</string>
+    <string name="enter_title">Enter title</string>
 </resources>
