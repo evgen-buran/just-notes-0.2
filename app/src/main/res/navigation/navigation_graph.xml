@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/noteFragment"
-        android:name="com.example.justnotes02.screens.NoteFragment"
+        android:name="com.example.justnotes02.screens.note.NoteFragment"
         android:label="fragment_note"
         tools:layout="@layout/fragment_note" >
         <action
